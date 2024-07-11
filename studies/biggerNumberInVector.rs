@@ -2,8 +2,8 @@ fn biggest_number(array: &[i32]) -> i32 {
     let mut bigger = array[0];
 
     for &a in array.iter() {
-        if a > bigger {
-            bigger = a;
+        if a > &bigger {
+            bigger = *a;
         }
     }
 
