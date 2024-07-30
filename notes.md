@@ -6,9 +6,9 @@ let - immutable variable
 
 let mut - mutable variable
 
-# Tipos de dados
+# Data types
 
-### inteiro padrão:
+### default integer:
 
 i8 (8 bits)
 i16 (16 bits)
@@ -20,7 +20,7 @@ i128 (128 bits)
 
 let x: i64 = 23;
 
-### Adicionando o u siginifica unsigned quanto o i significa signed
+### Adding the u means unsigned as the i means signed
 
 ### ex:
 
@@ -37,7 +37,7 @@ f64
 
 bool
 
-# Condicional
+# Conditional
 
     let x: u64 = 23;
     let f: u64 = 6;
